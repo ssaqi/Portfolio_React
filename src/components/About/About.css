@@ -1,0 +1,30 @@
+.bg-Color{
+
+    width: 100%;
+    height: 600px;
+    background-color: #343a40;
+}
+
+
+.dell{
+
+    /* background-color: rgb(255, 251, 251); */
+    background-color: 	#343a40;
+    
+}
+
+
+.dell:hover{
+     color: aliceblue;
+     background-color:#28a745;
+
+}
+
+@media only screen and (max-width: 640px) {
+
+
+    .bg-Color{
+
+        height: 1300px;
+    }
+}

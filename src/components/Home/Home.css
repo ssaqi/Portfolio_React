@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Mulish:wght@200;500;600&family=Redressed&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+} */
+
+
+.card-img{
+    /* The image used */
+    /* background-image: url("./assests/setting.jpg"); */
+  
+    /* Full height */
+    height:70vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.wrapper{
+  display: flex;
+}
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  margin-left: -40px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+  margin-top: -20px;
+}
+.dynamic-txts li{
+  list-style: none;
+  text-transform: uppercase;
+  font-family:'Poppins', sans-serif; ;
+  color: #28a745;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 2px 0;
+  line-height: 80px;
+  float: left;
+}
+.dynamic-txts li span::after{
+  content:"";
+  position: absolute;
+  left: 0;
+  height: 80%;
+  width: 100%;
+  background: #343a40;
+  border-left: 1px solid #28a745;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 20px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+@media only screen and (max-width: 640px) {
+    .card-img {
+      width: auto;
+    }
+
+    .wrapper{
+          
+        width: auto;
+    }
+
+    .dynamic-txts{
+        width: auto;
+    }
+
+    .dynamic-txts li{
+
+        font-size: 20px;
+    }
+
+    .mini{
+        
+        font-size: 13px;
+    }
+
+
+    .parah{
+
+        margin-top: 0px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+  .cc1{
+      
+        width: 290px;
+       margin-right: 40px;
+    }
+  
+  .p{
+
+     font-size: 35px;
+  }
+
+   
+
+  }
+
+.offer{
+
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color:#bbbbb8;
+}
+
+.mini{
+  font-family: 'Poppins' , sans-serif;
+  font-size: 50px;
+  text-transform:capitalize;
+  color: #28a745;
+  margin-top: -200px;
+}
+
+.cc1{
+    float: right;
+    margin-right: 30px;
+}
+
+.head{
+
+    font-size: 14px;
+    font-family: mulish;
+}
+
+
+.parah{
+
+    margin-top: -20px;
+    text-transform:lowercase;
+}
+
+
+.bgColor{
+
+    width: 100%;
+    height: 160vh;
+    background-color: #343a40;
+}
+
+.p{
+    font-size: 45px;
+
+}
+
+
+
+@media screen and (min-width: 380px) {
+ 
+    .head{
+
+        margin-bottom: 20px;
+    }
+
+
+    .parah{
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        margin-top: -20px;
+    }
+   
+
+
+  }
+
+
+

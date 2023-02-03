@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bcd39ec5.css",
+    "main.js": "/static/js/main.10a7fc78.js",
+    "static/js/787.e3835ec5.chunk.js": "/static/js/787.e3835ec5.chunk.js",
+    "static/media/saqib.png": "/static/media/saqib.555f1c02d32c61ebd3c9.png",
+    "static/media/m3.png": "/static/media/m3.670f470a0f28538f8464.png",
+    "static/media/firebase.png": "/static/media/firebase.101ff7c531b645c797ba.png",
+    "static/media/js-logo.png": "/static/media/js-logo.9ca191e7f6b8a7dc5454.png",
+    "static/media/m1.png": "/static/media/m1.d3052063a7c3a8696c32.png",
+    "static/media/xd.png": "/static/media/xd.0fe05f27334b9e953045.png",
+    "static/media/reac-logo.png": "/static/media/reac-logo.e71f4c5b0c4306d65355.png",
+    "static/media/m2.png": "/static/media/m2.a7818a96dfb2a02d2a4f.png",
+    "static/media/m4.png": "/static/media/m4.b0f6002bfff7e00cc929.png",
+    "static/media/css-logo.png": "/static/media/css-logo.a3067ff8349362dd8ab7.png",
+    "static/media/Bootstrap_logo.svg.png": "/static/media/Bootstrap_logo.svg.8dc3993849b28d5ec863.png",
+    "static/media/muii.png": "/static/media/muii.115a71fc3f2b08b634fd.png",
+    "static/media/figma.png": "/static/media/figma.56a0e7d9b3760f75d9f3.png",
+    "static/media/ps.png": "/static/media/ps.0b239cb7fdaa18571749.png",
+    "static/media/redex.png": "/static/media/redex.b3b939c66aecf7d53967.png",
+    "static/media/twiiter.png": "/static/media/twiiter.ab3243eba72d4c82eabe.png",
+    "static/media/m7.png": "/static/media/m7.5514ac743bb02b264596.png",
+    "static/media/m8.png": "/static/media/m8.a2eb42ebd043bc01495a.png",
+    "index.html": "/index.html",
+    "main.bcd39ec5.css.map": "/static/css/main.bcd39ec5.css.map",
+    "main.10a7fc78.js.map": "/static/js/main.10a7fc78.js.map",
+    "787.e3835ec5.chunk.js.map": "/static/js/787.e3835ec5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd39ec5.css",
+    "static/js/main.10a7fc78.js"
+  ]
+}
